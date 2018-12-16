@@ -89,7 +89,7 @@ var dialog = () => {
         inquirer.prompt([
           {
             name: "enterActor",
-            message: "Enter actor name",
+            message: "Enter an Actor's name",
             type: "input"
           }
         ]).then((answers) => {
