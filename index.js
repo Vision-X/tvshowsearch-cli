@@ -77,12 +77,6 @@ var dialog = () => {
             name: "enterShow",
             message: "Enter a TV Show name",
             type: "input"
-          },
-          {
-            name: "confirmSearch",
-            message: "Everything look good before we search?",
-            type: "list",
-            choices: ["Yes", "No"]
           }
         ]).then((answers) => {
             let type = "show";
@@ -97,12 +91,6 @@ var dialog = () => {
             name: "enterActor",
             message: "Enter actor name",
             type: "input"
-          },
-          {
-            name: "confirmSearch",
-            message: "Everything look good before we search?",
-            type: "list",
-            choices: ["Yes", "No"]
           }
         ]).then((answers) => {
             let type = "actor";
