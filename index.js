@@ -79,7 +79,6 @@ var dialog = () => {
             type: "input"
           }
         ]).then((answers) => {
-            let type = "show";
             let value = answers.enterShow;
             fetchShow(value);
         })
@@ -93,7 +92,6 @@ var dialog = () => {
             type: "input"
           }
         ]).then((answers) => {
-            let type = "actor";
             let value = answers.enterActor;
             fetchActor(value);
         })
